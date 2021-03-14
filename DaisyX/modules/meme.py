@@ -136,7 +136,7 @@ def sanitize(update: Update, context: CallbackContext):
         if message.reply_to_message
         else message.reply_animation
     )
-    reply_animation(random.choice(fun.GIFS), caption=f"*Sanitizes {name}*")
+    reply_animation(random.choice(fun_strings.GIFS)
 
 
 @run_async
