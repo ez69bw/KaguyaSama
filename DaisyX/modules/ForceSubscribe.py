@@ -210,4 +210,4 @@ Note: /FSub is an alias of /ForceSubscribe
 💭 Only on Kaguya yet
  
 """
-__mod_name__ = "📢 Force Subscribe 💭"
+__mod_name__ = "Force Subscribe 📢"
