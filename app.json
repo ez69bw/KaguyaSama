@@ -1,5 +1,5 @@
 {
-      "name": "Daisy X",
+      "name": "Kaguya Sama",
       "description": "An Anime themed Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -8,7 +8,7 @@
          "manager",
          "DaisyX"
       ],   
-   "repository": "https://github.com/Inukaasith/daisy-x",
+   "repository": "https://github.com/Gurwinder262/KaguyaSama",
    "addons": [
       {
          "options": {
@@ -53,7 +53,7 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "InukaAsith"
+         "value": "AlphaFreakz"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
@@ -150,7 +150,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://www.paypal.me/PaulSonOfLars"
+         "value": "https://t.me/AlphaFreakz"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
@@ -179,6 +179,6 @@
       "manager",
       "daisy"
    ],
-   "name": "Daisy X",
-   "repository": "https://github.com/Inukaasith/daisy-x"
+   "name": "Kaguya Sama",
+   "repository": "https://github.com/Gurwinder262/KaguyaSama"
 }
