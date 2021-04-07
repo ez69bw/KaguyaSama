@@ -2393,10 +2393,23 @@ But then you have many groups, and you don't want this spammer to be in one of y
 You can even designate federation admins, so your trusted admin can ban all the spammers from chats you want to protect.\n
 
 *Commands:*\n
-Feds are now divided into 3 sections for your ease. 
-✪ /fedownerhelp*:* Provides help for fed creation and owner only commands
-✪ /fedadminhelp*:* Provides help for fed administration commands
-✪ /feduserhelp*:* Provides help for commands anyone can use
+
+ - /newfed <fedname>: create a new federation with the name given. Users are only allowed to have one federation each. This command can also be used to rename the federation. (max. 64 characters)
+ - /delfed: delete your federation, and all information related to it. However, this will NOT unban the banned users.
+ - /fedinfo <FedID>: information about the specified federation.
+ - /joinfed <FedID>: add the current chat to the specified federation. Only group owners can use this command. A group can only have one federation linked to it.
+ - /leavefed <FedID>: leave the specified federation. Only group owners can use this command.
+ - /fpromote <user>: promote the specified user to fedadmin. Can only be used by the fed owner. - /fdemote <user>: demote the specified user. Can only be used by the fed owner.
+ - /fban <user>: ban users from all federations you have control over.
+ - /unfban <user>: unbans users from all federations you have control over.
+ - /setfrules: set the rules for the federation.
+ - /frules: get the rules of the federation.
+ - /chatfed: shows the federation the chat is linked to.
+ - /fedadmins: gives list of federation admins.
+ - /fbanlist: gives the list of currently fedbanned users.
+ - /fedchats: get all the chats linked to the federation.
+ - /importfbans: Reply to the federation backup message file to import the banned list to the federation.
+ - /myfeds: To know Your fed
 
 """
 
